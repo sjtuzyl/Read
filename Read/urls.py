@@ -41,5 +41,8 @@ def toIndex(request):
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^ueditor/',include('DjangoUeditor.urls')),
-    url(r'^$',toIndex)
+    url(r'^user/', include('user.urls')),
+    url(r'^$',toIndex),
+
+
 ]
