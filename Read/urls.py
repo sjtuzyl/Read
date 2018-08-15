@@ -14,9 +14,32 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 from django.conf.urls import url,include
+from django.core.paginator import Paginator
+from django.shortcuts import render
+from art.models import Tag,Articl
 import xadmin as admin
+
+def toIndex(request):
+    # 加载所有分类
+    tags = Tag.objects.all()
+    # locals()将当前函数的局部变量转变为字典的k-v
+
+    # 读取分类id
+    tag_id = request.GET.get('tag')
+    if tag_id:
+        tag_id = int(tag_id)
+        articls = Articl.objects.filter(tag_id=tag_id)
+    else:
+        tag_id = 0
+        articls = Articl.objects.all()
+    #将文章分页
+    paginator = Paginator(articls,1)
+    page = int(request.GET.get('page',1))
+    pager = paginator.page(page)
+    return render(request,'index.html',locals())
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^ueditor/',include('DjangoUeditor.urls'))
+    url(r'^ueditor/',include('DjangoUeditor.urls')),
+    url(r'^$',toIndex)
 ]

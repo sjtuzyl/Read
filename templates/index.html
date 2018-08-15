@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+{% block title %}
+    主页-美文小说网
+{% endblock %}
+
+{% block content %}
+    <div id="content">
+
+        <!--标签分类-->
+        <ul class="tag">
+            <li style="font-size: 20px;">
+                <span class="text-center">
+                <label class="glyphicon glyphicon-tags"
+                       style="margin-right:5px; "></label>分类</span>
+            </li>
+            <li>
+                {% if tag_id %}
+                    <a href="/" class="btn btn-info">所有分类</a>
+                {% else %}
+                    <a href="/" class="btn btn-danger">所有分类</a>
+                {% endif %}
+            </li>
+            {% for tag in tags %}
+                <li>
+                    {% if tag_id == tag.id %}
+                        <a href="/?tag={{ tag.id }}" class="btn btn-danger">{{ tag.name }}</a>
+                    {% else %}
+                        <a href="/?tag={{ tag.id }}" class="btn btn-info">{{ tag.name }}</a>
+                    {% endif %}
+                </li>
+            {% endfor %}
+            <div class="clearfix"></div>
+        </ul>
+
+        <!--列出文章 -->
+        <ul class="art">
+            {% for articl in pager.object_list %}
+                <li>
+                    <dl>
+                        <dt>
+                            <img src="/static/uploads/{{ articl.cover }}"
+                                 width="200px" height="240px">
+                        </dt>
+                        <dd><span>{{ articl.title }}</span></dd>
+                        <dd><span>作者:{{ articl.author }}</span></dd>
+                        <dd class="text-center"><a class="btn btn-primary">开始阅读</a></dd>
+                    </dl>
+                </li>
+            {% endfor %}
+
+            <div class="clearfix"></div>
+        </ul>
+
+        <!-- 分页 -->
+        <nav aria-label="Page navigation" class="text-center">
+            <ul class="pagination">
+                <li>
+                    {% if pager.has_previous %}
+                        <a href="/?page={{ pager.previous_page_number }}" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    {% else %}
+                        <a class="disabled" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    {% endif %}
+                </li>
+
+                {% for page in paginator.page_range %}
+                    <li class="{% if pager.number == page %}active{% endif %}">
+                        <a href="/?page={{ page }}&tag={{ tag_id }}">{{ page }}</a></li>
+                {% endfor %}
+
+
+                <li>
+                    {% if pager.has_next %}
+                        <a href="/?page={{ pager.next_page_number }}&tag={{ tag_id }}" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    {% else %}
+                        <a class="disabled" aria-label="Next">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    {% endif %}
+                </li>
+            </ul>
+        </nav>
+    </div>
+{% endblock %}
