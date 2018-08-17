@@ -1,4 +1,4 @@
-from django.contrib.auth.hashers import make_password,check_password
+from django.contrib.auth.hashers import make_password
 from django.db import models
 
 # Create your models here.
@@ -26,8 +26,8 @@ class UserProfile(models.Model):
 
     def save(self, force_insert=False, force_update=False, using=None,
              update_fields=None):
-
-        self.password = make_password(self.password)
+        if not self.password.startswith('pbkdf2_sha256') and len(self.password) <= 70:
+            self.password = make_password(self.password)
         super().save()
 
     class Meta:

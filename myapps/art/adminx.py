@@ -36,7 +36,7 @@ class TagAdmin(object):
 class ArticlAdmin(object):
     list_display = ['title','author','summary','publish_date']
     search_fields = ['title','author']
-    style_fields = {'a_content': 'ueditor'}
+    style_fields = {'content': 'ueditor'}
 
 xadmin.site.register(views.BaseAdminView,BaseSetting)  #基本后台设置
 xadmin.site.register(views.CommAdminView,GlobalSettings)  #通用设置

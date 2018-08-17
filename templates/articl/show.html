@@ -1,0 +1,98 @@
+{% extends 'base.html' %}
+{% block css %}
+    <style>
+        .row {
+            padding: 10px;
+        }
+
+        #articl_content, #articl-top {
+            margin: 1px;
+            border: 1px solid dodgerblue;
+        }
+
+        #articl-top h2 {
+            margin: 0px;
+            padding: 5px;
+            background-color: lightblue;
+        }
+    </style>
+{% endblock %}
+{% block content %}
+    <div id="content">
+        <div class="row">
+            <div class="col-md-8">
+                <div id="articl_content">
+                    <h1 class="text-center">{{ articl.title }}</h1>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="/static/uploads/{{ articl.cover }}" width="180px" height="220px">
+                        </div>
+                        <div class="col-md-9">
+                            <p><b>作者: &nbsp;&nbsp;{{ articl.author }}</b></p>
+                            <p><b>介绍</b>{{ articl.content|safe }}</p>
+                        </div>
+                    </div>
+                    <div class="text-center" style="padding: 10px">
+                        <a id="qdBtn" onclick="qd({{ articl.id }})" class="btn btn-success">立即抢读</a>
+                        <a class="btn btn-danger">加入书架</a>
+                        <a class="btn btn-primary">立即购买</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div id="articl-top">
+                    <h2 class="text-center"><a href="#">阅读排行</a></h2>
+                    <ul style="padding: 5px">
+                        {% for articl_ , score in readTopRank %}
+                            <li class="row" style="border-bottom: 1px dotted lightgray;margin: 0px;padding: 5px">
+                                <span class="col-md-11"><a href="/articl/show/{{ articl_.id }}/">{{ articl_.title }}</a></span>
+                                <span class="col-md-1 text-center"
+                                      style="background-color: yellow;padding: 2px">{{ score }}</span>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block js %}
+    <script>
+        isQD = true;  //是否可以抢读
+        function qd(artid) {
+            {#            alert('-----正在抢读----'+ artid)#}
+            if (isQD) {
+                isQD = false;
+                $.getJSON('/articl/qd/' + artid + '/', function (data) {
+                    if (data.code == 101) {
+
+                        window.open('/user/login/', target = '_self');
+                    } else {
+                        $('#qdBtn').text(data.msg);
+
+                        // 启动定时检查
+                        qid = setInterval(function () {
+                            queryQDStatus(artid);
+                        },1000)
+                    }
+                })
+            }else {
+                alert('正在抢读中...')
+            }
+        }
+        function queryQDStatus(id) {
+            $.getJSON('/articl/query_qd/'+ id+'/',function (data) {
+                $('#qdBtn').text(data.msg);
+                if(data.code == 200){
+                    alert('抢到了' + data.articl.title);
+                }
+                if(data.code != 201) {
+                    clearInterval(qid);
+                }
+            })
+        }
+    </script>
+
+{% endblock %}

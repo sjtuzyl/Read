@@ -13,6 +13,14 @@ class UserForm(forms.ModelForm):
             'min_length': '用户名不能低于8个字符'
         }
     )
+    password2 = forms.CharField(
+        min_length=8,
+        required=True,
+        error_messages={
+            'required': '重复密码不能为空!',
+            'min_length': '密码长度不能少于8位'
+        }
+    )
     class Meta:
         model = UserProfile
         fields = '__all__'
@@ -25,10 +33,10 @@ class UserForm(forms.ModelForm):
             }
         }
 
-    def clean_password(self):
+    def clean_password2(self):
         # cleaned_data 已去除字段中两边的空白
         p1 = self.cleaned_data.get('password')
         p2 = self.cleaned_data.get('password2')
-        if p1 == p2:
+        if p1 is not None and p1 == p2:
             return p1
         raise ValidationError('两次密码不一致')

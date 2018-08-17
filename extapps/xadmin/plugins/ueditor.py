@@ -31,5 +31,6 @@ class UeditorPlugin(BaseAdminPlugin):
         js += '<script type="text/javascript" src="%s"></script>' % (settings.STATIC_URL + "ueditor/ueditor.all.min.js")
         nodes.append(js)
 
+
 xadmin.site.register_plugin(UeditorPlugin, UpdateAdminView)
 xadmin.site.register_plugin(UeditorPlugin, CreateAdminView)

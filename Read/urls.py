@@ -13,11 +13,15 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
+import json
+
 from django.conf.urls import url,include
 from django.core.paginator import Paginator
 from django.shortcuts import render
 from art.models import Tag,Articl
 import xadmin as admin
+from user import helper
+
 
 def toIndex(request):
     # 加载所有分类
@@ -33,15 +37,19 @@ def toIndex(request):
         tag_id = 0
         articls = Articl.objects.all()
     #将文章分页
-    paginator = Paginator(articls,1)
+    paginator = Paginator(articls,10)
     page = int(request.GET.get('page',1))
     pager = paginator.page(page)
+
+    # 获取登录用户信息
+    login_user = helper.getLoginInfo(request)
     return render(request,'index.html',locals())
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^ueditor/',include('DjangoUeditor.urls')),
     url(r'^user/', include('user.urls')),
+    url(r'^articl/',include('art.urls')),
     url(r'^$',toIndex),
 
 

@@ -2,6 +2,7 @@
 {% block content %}
     <div id="content" style="margin: 0 40px">
         <form action="/user/regist/" class="form form-horizontal" method="post">
+            {% csrf_token %}
             <h1 class="text-center">用户注册页面</h1>
             <div class="form-group">
                 <label class="col-md-2 control-label">用户名</label>
@@ -54,7 +55,7 @@
             <div class="form-group">
                 <div class="col-md-offset-2">
                     <button class="btn btn-primary">注册</button>
-                    <a href="#" class="btn btn-link">已有账号，去登录</a>
+                    <a href="/user/login/" class="btn btn-link">已有账号，去登录</a>
                 </div>
             </div>
         </form>

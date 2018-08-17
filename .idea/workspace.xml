@@ -2,10 +2,710 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46dd5ba7-6936-4f85-8480-34ac4d8328b6" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/adminx.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/commands.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/forms.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/UEditorSnapscreen.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/_examples/addCustomizeButton.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/_examples/addCustomizeCombox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/_examples/addCustomizeDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/_examples/charts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/_examples/completeDemo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/_examples/customPluginDemo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/_examples/customToolbarDemo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/_examples/customizeDialogPage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/_examples/customizeToolbarUIDemo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/_examples/editor_api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/_examples/filterRuleDemo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/_examples/highlightDemo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/_examples/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/_examples/jqueryCompleteDemo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/_examples/jqueryValidation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/_examples/multiDemo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/_examples/multiEditorWithOneInstance.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/_examples/renderInTable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/_examples/resetDemo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/_examples/sectiondemo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/_examples/server/getContent.ashx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/_examples/server/getContent.asp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/_examples/server/getContent.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/_examples/server/getContent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/_examples/setWidthHeightDemo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/_examples/simpleDemo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/_examples/sortableDemo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/_examples/submitFormDemo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/_examples/textareaDemo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/_examples/uparsedemo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/anchor/anchor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/attachment/attachment.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/attachment/attachment.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/attachment/attachment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/attachment/images/alignicon.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/attachment/images/alignicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/attachment/images/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/attachment/images/file-icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/attachment/images/file-icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/attachment/images/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/attachment/images/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/attachment/images/image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/attachment/images/progress.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/attachment/images/success.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/attachment/images/success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/background/background.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/background/background.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/background/background.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/background/images/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/background/images/success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/charts/chart.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/charts/charts.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/charts/charts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/charts/charts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/charts/images/charts0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/charts/images/charts1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/charts/images/charts2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/charts/images/charts3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/charts/images/charts4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/charts/images/charts5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/emotion/emotion.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/emotion/emotion.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/emotion/emotion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/emotion/images/0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/emotion/images/bface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/emotion/images/cface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/emotion/images/fface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/emotion/images/jxface2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/emotion/images/tface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/emotion/images/wface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/emotion/images/yface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/gmap/gmap.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/help/help.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/help/help.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/help/help.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/image/image.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/image/image.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/image/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/image/images/alignicon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/image/images/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/image/images/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/image/images/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/image/images/image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/image/images/progress.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/image/images/success.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/image/images/success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/insertframe/insertframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/internal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/link/link.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/map/map.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/map/show.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/music/music.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/music/music.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/music/music.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/preview/preview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/addimg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/brush.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/delimg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/delimgH.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/empty.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/emptyH.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/eraser.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/redo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/redoH.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/scale.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/scaleH.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/size.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/undo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/undoH.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/scrawl/scrawl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/scrawl/scrawl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/scrawl/scrawl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/searchreplace/searchreplace.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/searchreplace/searchreplace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/snapscreen/snapscreen.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/spechars/spechars.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/spechars/spechars.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/table/dragicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/table/edittable.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/table/edittable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/table/edittable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/table/edittd.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/table/edittip.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/template/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/template/images/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/template/images/pre0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/template/images/pre1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/template/images/pre2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/template/images/pre3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/template/images/pre4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/template/template.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/template/template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/template/template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/video/images/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/video/images/center_focus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/video/images/file-icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/video/images/file-icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/video/images/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/video/images/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/video/images/image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/video/images/left_focus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/video/images/none_focus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/video/images/progress.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/video/images/right_focus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/video/images/success.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/video/images/success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/video/video.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/video/video.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/video/video.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/webapp/webapp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/wordimage/imageUploader.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/wordimage/tangram.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/wordimage/wordimage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/dialogs/wordimage/wordimage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/lang/en/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/lang/en/images/addimage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/lang/en/images/alldeletebtnhoverskin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/lang/en/images/alldeletebtnupskin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/lang/en/images/background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/lang/en/images/button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/lang/en/images/copy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/lang/en/images/deletedisable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/lang/en/images/deleteenable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/lang/en/images/listbackground.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/lang/en/images/localimage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/lang/en/images/music.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/lang/en/images/rotateleftdisable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/lang/en/images/rotateleftenable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/lang/en/images/rotaterightdisable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/lang/en/images/rotaterightenable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/lang/en/images/upload.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/lang/zh-cn/images/copy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/lang/zh-cn/images/localimage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/lang/zh-cn/images/music.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/lang/zh-cn/images/upload.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/lang/zh-cn/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/php/Uploader.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/php/action_crawler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/php/action_list.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/php/action_upload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/php/config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/php/controller.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/css/ueditor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/css/ueditor.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/dialogbase.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/anchor.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/arrow_down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/arrow_up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/button-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/cancelbutton.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/charts.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/cursor_h.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/cursor_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/cursor_v.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/cursor_v.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/dialog-title-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/fileScan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/highlighted.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/icons-all.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/loaderror.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/lock.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/neweditor-tab-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/pagebreak.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/scale.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/sortable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/spacer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/sparator_v.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/table-cell-align.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/tangram-colorpicker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/toolbar_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/unhighlighted.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/upload.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/videologo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/word.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/default/images/wordpaste.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/themes/iframe.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/SyntaxHighlighter/shCore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/codemirror/codemirror.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/codemirror/codemirror.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/mootools-adapter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/prototype-adapter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/standalone-framework.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/highcharts-more.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/highcharts-more.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/highcharts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/highcharts.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/annotations.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/annotations.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/canvas-tools.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/canvas-tools.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/data.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/drilldown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/drilldown.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/exporting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/exporting.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/funnel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/funnel.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/heatmap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/heatmap.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/map.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/no-data-to-display.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/themes/dark-blue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/themes/dark-green.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/themes/gray.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/themes/grid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/highcharts/themes/skies.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/jquery-1.10.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/jquery-1.10.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/jquery-1.10.2.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/video-js/font/vjs.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/video-js/font/vjs.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/video-js/font/vjs.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/video-js/font/vjs.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/video-js/video-js.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/video-js/video-js.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/video-js/video-js.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/video-js/video.dev.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/video-js/video.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/webuploader/Uploader.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.flashonly.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.flashonly.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.html5only.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.html5only.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.withoutimage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/zeroclipboard/ZeroClipboard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/ueditor.all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/ueditor.all.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/ueditor.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/ueditor.parse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/static/ueditor/ueditor.parse.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/templates/ueditor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/templates/ueditor_old.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/DjangoUeditor/widgets.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/.tx/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/adminx.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/filters.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/forms.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/layout.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/de_DE/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/de_DE/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/de_DE/LC_MESSAGES/djangojs.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/de_DE/LC_MESSAGES/djangojs.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/en/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/en/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/en/LC_MESSAGES/djangojs.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/en/LC_MESSAGES/djangojs.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/es_MX/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/es_MX/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/es_MX/LC_MESSAGES/djangojs.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/es_MX/LC_MESSAGES/djangojs.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/eu/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/eu/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/eu/LC_MESSAGES/djangojs.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/eu/LC_MESSAGES/djangojs.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/id_ID/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/id_ID/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/id_ID/LC_MESSAGES/djangojs.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/id_ID/LC_MESSAGES/djangojs.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/ja/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/ja/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/ja/LC_MESSAGES/djangojs.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/ja/LC_MESSAGES/djangojs.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/lt/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/lt/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/lt/LC_MESSAGES/djangojs.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/lt/LC_MESSAGES/djangojs.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/nl_NL/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/nl_NL/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/nl_NL/LC_MESSAGES/djangojs.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/nl_NL/LC_MESSAGES/djangojs.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/pl/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/pl/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/pl/LC_MESSAGES/djangojs.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/pl/LC_MESSAGES/djangojs.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/pt_BR/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/pt_BR/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/pt_BR/LC_MESSAGES/djangojs.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/pt_BR/LC_MESSAGES/djangojs.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/ru_RU/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/ru_RU/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/ru_RU/LC_MESSAGES/djangojs.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/ru_RU/LC_MESSAGES/djangojs.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/zh_Hans/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/zh_Hans/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/zh_Hans/LC_MESSAGES/djangojs.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/locale/zh_Hans/LC_MESSAGES/djangojs.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/actions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/aggregation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/ajax.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/auth.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/batch.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/bookmark.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/chart.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/comments.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/details.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/editable.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/export.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/filters.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/images.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/inline.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/language.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/layout.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/mobile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/multiselect.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/passwords.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/portal.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/quickfilter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/quickform.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/refresh.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/relate.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/relfield.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/sitemenu.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/sortablelist.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/themes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/topnav.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/ueditor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/wizard.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/plugins/xversion.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/sites.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/component.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/css/themes/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/css/themes/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/css/themes/bootstrap-xadmin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/css/xadmin.form.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/css/xadmin.main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/css/xadmin.mobile.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/css/xadmin.page.dashboard.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/css/xadmin.plugin.aggregation.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/css/xadmin.plugin.formset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/css/xadmin.plugin.quickfilter.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/css/xadmin.plugins.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/css/xadmin.responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/css/xadmin.widget.editable.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/css/xadmin.widget.select-transfer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/js/xadmin.main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/js/xadmin.page.dashboard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/js/xadmin.page.form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/js/xadmin.page.list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/js/xadmin.plugin.actions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/js/xadmin.plugin.batch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/js/xadmin.plugin.bookmark.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/js/xadmin.plugin.charts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/js/xadmin.plugin.details.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/js/xadmin.plugin.editable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/js/xadmin.plugin.filters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/js/xadmin.plugin.formset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/js/xadmin.plugin.portal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/js/xadmin.plugin.quick-form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/js/xadmin.plugin.quickfilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/js/xadmin.plugin.refresh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/js/xadmin.plugin.revision.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/js/xadmin.plugin.sortablelist.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/js/xadmin.plugin.themes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/js/xadmin.responsive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/js/xadmin.widget.datetime.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/js/xadmin.widget.multiselect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/js/xadmin.widget.select-transfer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/js/xadmin.widget.select.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/autotype/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.kr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ms.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.pt-BR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.rs-latin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.rs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.zh-TW.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-image-gallery/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-modal/css/bootstrap-modal.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-modal/img/ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-modal/js/bootstrap-modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-modal/js/bootstrap-modalmanager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-multiselect/css/bootstrap-multiselect.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-multiselect/js/bootstrap-multiselect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-timepicker/css/bootstrap-timepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-timepicker/css/bootstrap-timepicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-timepicker/js/bootstrap-timepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap-timepicker/js/bootstrap-timepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/flot/excanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/flot/excanvas.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/flot/jquery.colorhelpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/flot/jquery.flot.aggregate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/flot/jquery.flot.canvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/flot/jquery.flot.categories.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/flot/jquery.flot.crosshair.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/flot/jquery.flot.errorbars.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/flot/jquery.flot.fillbetween.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/flot/jquery.flot.image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/flot/jquery.flot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/flot/jquery.flot.navigate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/flot/jquery.flot.pie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/flot/jquery.flot.resize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/flot/jquery.flot.selection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/flot/jquery.flot.stack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/flot/jquery.flot.symbol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/flot/jquery.flot.threshold.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/flot/jquery.flot.time.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/font-awesome/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/font-awesome/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.core.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.effect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.effect.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.mouse.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.sortable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.widget.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.widget.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/jquery/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/jquery/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/load-image/load-image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/load-image/load-image.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/select2/select2-spinner.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/select2/select2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/select2/select2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/select2/select2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/select2/select2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/select2/select2_locale_de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/select2/select2_locale_en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/select2/select2_locale_es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/select2/select2_locale_eu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/select2/select2_locale_fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/select2/select2_locale_hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/select2/select2_locale_hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/select2/select2_locale_it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/select2/select2_locale_nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/select2/select2_locale_pt-BR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/select2/select2_locale_pt-PT.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/select2/select2_locale_ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/select2/select2_locale_ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/select2/select2_locale_sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/select2/select2_locale_sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/select2/select2_locale_tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/select2/select2_locale_ua.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/select2/select2_locale_zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/select2/select2_locale_zh-hans.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/select2/select2x2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/selectize/selectize.bootstrap2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/selectize/selectize.bootstrap3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/selectize/selectize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/selectize/selectize.default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/selectize/selectize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/selectize/selectize.legacy.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/selectize/selectize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/snapjs/snap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/snapjs/snap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/static/xadmin/vendor/snapjs/snap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/500.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/auth/password_reset/complete.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/auth/password_reset/confirm.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/auth/password_reset/done.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/auth/password_reset/email.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/auth/password_reset/form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/auth/user/add_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/auth/user/change_password.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/base_site.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/blocks/comm.top.setlang.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/blocks/comm.top.theme.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/blocks/comm.top.topnav.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/blocks/modal_list.left_navbar.quickfilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/blocks/model_form.before_fieldsets.wizard.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/blocks/model_form.submit_line.wizard.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/blocks/model_list.nav_form.search_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/blocks/model_list.nav_menu.bookmarks.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/blocks/model_list.nav_menu.filters.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/blocks/model_list.results_bottom.actions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/blocks/model_list.results_top.charts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/blocks/model_list.results_top.date_hierarchy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/blocks/model_list.top_toolbar.exports.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/blocks/model_list.top_toolbar.layouts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/blocks/model_list.top_toolbar.refresh.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/blocks/model_list.top_toolbar.saveorder.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/edit_inline/accordion.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/edit_inline/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/edit_inline/blank.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/edit_inline/one.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/edit_inline/stacked.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/edit_inline/tab.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/edit_inline/tabular.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/filters/char.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/filters/checklist.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/filters/date.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/filters/fk_search.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/filters/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/filters/number.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/filters/quickfilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/filters/rel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/forms/transfer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/grids/thumbnails.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/includes/box.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/includes/pagination.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/includes/sitemenu_accordion.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/includes/sitemenu_default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/includes/submit_line.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/includes/toggle_back.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/includes/toggle_menu.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/layout/field_value.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/layout/field_value_td.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/layout/fieldset.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/layout/input_group.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/layout/td-field.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/views/app_index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/views/batch_change_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/views/dashboard.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/views/form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/views/invalid_setup.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/views/logged_out.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/views/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/views/model_dashboard.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/views/model_delete_confirm.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/views/model_delete_selected_confirm.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/views/model_detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/views/model_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/views/model_history.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/views/model_list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/views/quick_detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/views/quick_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/views/recover_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/views/recover_list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/views/revision_diff.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/views/revision_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/widgets/addform.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/widgets/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/widgets/chart.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/widgets/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templates/xadmin/widgets/qbutton.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templatetags/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/templatetags/xadmin_tags.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/vendors.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/views/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/views/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/views/dashboard.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/views/delete.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/views/detail.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/views/edit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/views/form.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/views/list.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/views/website.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extapps/xadmin/widgets.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Read/settings.py" afterPath="$PROJECT_DIR$/Read/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Read/urls.py" afterPath="$PROJECT_DIR$/Read/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapps/art/adminx.py" afterPath="$PROJECT_DIR$/myapps/art/adminx.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapps/art/views.py" afterPath="$PROJECT_DIR$/myapps/art/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapps/user/forms.py" afterPath="$PROJECT_DIR$/myapps/user/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapps/user/models.py" afterPath="$PROJECT_DIR$/myapps/user/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapps/user/urls.py" afterPath="$PROJECT_DIR$/myapps/user/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapps/user/views.py" afterPath="$PROJECT_DIR$/myapps/user/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/user/regist.html" afterPath="$PROJECT_DIR$/templates/user/regist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/user/userInfo.html" afterPath="$PROJECT_DIR$/templates/user/userInfo.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,31 +717,87 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Read$views.coverage" NAME="views Coverage Results" MODIFIED="1534244775534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extapps/DjangoUeditor" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="db.sqlite3" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="db.sqlite3" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="main" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myapps/user/urls.py">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Read/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="559">
+              <caret line="146" column="1" lean-forward="false" selection-start-line="146" selection-start-column="1" selection-end-line="146" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="62" column="52" lean-forward="false" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#li#0;n#ul#1;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#li#0;n#ul#1;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myapps/user/views.py">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Read/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+            <state relative-caret-position="-131">
+              <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userInfo.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/user/userInfo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#68#90#0#HTML" expanded="true" />
+                <element signature="e#673#691#0#HTML" expanded="true" />
+                <element signature="e#1308#1326#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,20 +806,40 @@
       <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myapps/user/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+            <state relative-caret-position="609">
+              <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myapps/user/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-73">
+              <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
               <folding>
-                <element signature="e#0#24#0" expanded="true" />
+                <element signature="e#0#53#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userInfo.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/user/userInfo.html">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myapps/user/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="232">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myapps/user/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="94" column="45" lean-forward="false" selection-start-line="94" selection-start-column="45" selection-end-line="94" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -74,8 +850,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -94,17 +870,26 @@
         <option value="$PROJECT_DIR$/ReadPro/Read/settings.py" />
         <option value="$PROJECT_DIR$/myapps/art/apps.py" />
         <option value="$PROJECT_DIR$/myapps/art/__init__.py" />
-        <option value="$PROJECT_DIR$/myapps/art/adminx.py" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/myapps/user/urls.py" />
-        <option value="$PROJECT_DIR$/Read/settings.py" />
-        <option value="$PROJECT_DIR$/Read/urls.py" />
-        <option value="$PROJECT_DIR$/myapps/user/views.py" />
-        <option value="$PROJECT_DIR$/templates/user/regist.html" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/myapps/user/models.py" />
         <option value="$PROJECT_DIR$/myapps/user/forms.py" />
+        <option value="$PROJECT_DIR$/myapps/user/models.py" />
+        <option value="$PROJECT_DIR$/templates/user/login.html" />
+        <option value="$PROJECT_DIR$/templates/user/regist.html" />
+        <option value="$PROJECT_DIR$/Read/urls.py" />
+        <option value="$PROJECT_DIR$/myapps/redis/__init__.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/Read/settings.py" />
+        <option value="$PROJECT_DIR$/myapps/art/urls.py" />
+        <option value="$PROJECT_DIR$/templates/articl/show.html" />
+        <option value="$PROJECT_DIR$/myapps/redis_/__init__.py" />
+        <option value="$PROJECT_DIR$/Read/celery.py" />
+        <option value="$PROJECT_DIR$/myapps/art/tasks.py" />
+        <option value="$PROJECT_DIR$/myapps/art/views.py" />
+        <option value="$PROJECT_DIR$/myapps/art/adminx.py" />
+        <option value="$PROJECT_DIR$/myapps/user/helper.py" />
+        <option value="$PROJECT_DIR$/myapps/user/views.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/myapps/user/urls.py" />
         <option value="$PROJECT_DIR$/templates/user/userInfo.html" />
       </list>
     </option>
@@ -116,10 +901,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="322" />
-    <option name="y" value="66" />
-    <option name="width" value="1368" />
-    <option name="height" value="898" />
+    <option name="x" value="24" />
+    <option name="y" value="72" />
+    <option name="width" value="1774" />
+    <option name="height" value="998" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -139,6 +924,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -193,7 +979,93 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Read" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Read" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uploads" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Read" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Read" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Read" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Read" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Read" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Read" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Read" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redis_" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Read" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Read" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="art" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -214,21 +1086,22 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/read/Scripts/python.exe" />
+    <property name="last_opened_file_path" value="D:/day91_相关资源/HArtPro_v2/HArtPro/HArtPro" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Read\static\base\css" />
-      <recent name="D:\Read\templates" />
       <recent name="D:\Read\static" />
+      <recent name="D:\Read\templates\user" />
+      <recent name="D:\Read\Read" />
       <recent name="D:\Read\extapps" />
+      <recent name="D:\Read\static\base\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Read" />
@@ -499,18 +1372,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="322" y="66" width="1368" height="898" extended-state="0" />
+    <frame x="24" y="72" width="1774" height="998" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16228747" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299566" sideWeight="0.5027322" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15294118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789317" sideWeight="0.50463676" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882354" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2639087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789317" sideWeight="0.4953632" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31835207" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32097003" sideWeight="0.49726775" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31835207" sideWeight="0.49726775" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -519,7 +1392,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -534,156 +1407,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Read/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="e#638#678#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapps/art/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#13#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapps/art/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapps/art/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Read/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3799">
-          <caret line="131" column="23" lean-forward="false" selection-start-line="131" selection-start-column="23" selection-end-line="131" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapps/art/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1595">
-          <caret line="56" column="17" lean-forward="false" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Read/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="e#638#678#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapps/art/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapps/art/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Read/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3799">
-          <caret line="131" column="27" lean-forward="true" selection-start-line="131" selection-start-column="27" selection-end-line="131" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapps/art/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#13#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapps/art/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Read/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="e#638#678#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapps/art/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Read/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1247">
-          <caret line="43" column="16" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extapps/DjangoUeditor/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extapps/xadmin/.tx/config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xadmin_requiements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -696,30 +1419,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/day91_92资源/HArtPro/myapps/art/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Read/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/day91_92资源/HArtPro/myapps/art/__init__.py" />
     <entry file="file://$PROJECT_DIR$/static/base/js/npm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -727,15 +1434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapps/art/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -743,36 +1441,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/base/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-667">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapps/art/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/art/images/180.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/art/images/180_D9rC7Ij.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/art/images/180.jpg" />
+    <entry file="file://$PROJECT_DIR$/art/images/180_D9rC7Ij.jpg" />
     <entry file="file://$PROJECT_DIR$/static/uploads/art/images/180_fjvz4wa.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -787,18 +1460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="74" column="20" lean-forward="true" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#label#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -806,7 +1467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3072">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -814,9 +1474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-665">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -824,7 +1481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6235">
           <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -832,7 +1488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -840,53 +1495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
           <caret line="34" column="59" lean-forward="false" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Read/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="45" column="9" lean-forward="false" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapps/art/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="41" column="23" lean-forward="false" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Read/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="44" column="4" lean-forward="false" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
-          <folding>
-            <element signature="e#638#678#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapps/art/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="81" column="8" lean-forward="true" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#form#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -894,6 +1502,229 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="452">
           <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extapps/xadmin/.tx/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/edd5b2c9-972c-417e-833a-1ef93d4f7a32/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/7558115c/edd5b2c9-972c-417e-833a-1ef93d4f7a32/main.auth_user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/base/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-844">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-94460372/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="289" column="4" lean-forward="false" selection-start-line="289" selection-start-column="4" selection-end-line="289" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="30" column="66" lean-forward="false" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/7558115c/edd5b2c9-972c-417e-833a-1ef93d4f7a32/main.t_user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Read/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/redis/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="1709" column="8" lean-forward="false" selection-start-line="1709" selection-start-column="8" selection-end-line="1709" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapps/art/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapps/user/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Read/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/celery/app/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4872">
+          <caret line="207" column="8" lean-forward="false" selection-start-line="207" selection-start-column="8" selection-end-line="207" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Read/celery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapps/redis_/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapps/art/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1537">
+          <caret line="62" column="23" lean-forward="false" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#36#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapps/art/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#27#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapps/art/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1682">
+          <caret line="59" column="26" lean-forward="false" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/articl/show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2378">
+          <caret line="82" column="13" lean-forward="false" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapps/art/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/7558115c/edd5b2c9-972c-417e-833a-1ef93d4f7a32/main.t_art">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Read/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="146" column="1" lean-forward="false" selection-start-line="146" selection-start-column="1" selection-end-line="146" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="45" column="106" lean-forward="false" selection-start-line="45" selection-start-column="106" selection-end-line="45" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Read/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-131">
+          <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapps/art/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapps/user/helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapps/user/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -901,62 +1732,57 @@
     <entry file="file://$PROJECT_DIR$/templates/user/regist.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="62" column="52" lean-forward="false" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
           <folding>
-            <element signature="e#68#90#0#HTML" expanded="true" />
-            <element signature="e#383#518#0#HTML" expanded="false" />
-            <element signature="e#656#674#0#HTML" expanded="true" />
-            <element signature="e#1270#1288#0#HTML" expanded="true" />
-            <element signature="e#2269#2287#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#li#0;n#ul#1;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#li#0;n#ul#1;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myapps/user/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+        <state relative-caret-position="-73">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding>
-            <element signature="e#0#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapps/user/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapps/user/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myapps/user/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="609">
+          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapps/user/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="94" column="45" lean-forward="false" selection-start-line="94" selection-start-column="45" selection-end-line="94" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/user/userInfo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="58">
+          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding>
+            <element signature="e#68#90#0#HTML" expanded="true" />
+            <element signature="e#673#691#0#HTML" expanded="true" />
+            <element signature="e#1308#1326#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

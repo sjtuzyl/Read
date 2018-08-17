@@ -28,7 +28,7 @@ SECRET_KEY = 'vpq4hfd&kz%&tblmy0cm%i*_)yx1s-n9-7(d@ox)tk2)#ga8q&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     'xadmin',
     'crispy_forms',
     'DjangoUeditor',
-    'user'
+    'user',
+    'djcelery',
 ]
 
 MIDDLEWARE = [
@@ -119,7 +120,7 @@ USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = False
+USE_TZ = True
 
 
 # Static files (CSS, JavaScript, Images)
@@ -133,3 +134,29 @@ STATICFILES_DIRS = [
 # 设置媒体文件请求的url 和 资源文件管理器的位置
 MEDIA_ROOT = os.path.join(BASE_DIR, 'static/uploads')
 MEDIA_URL = '/static/uploads/'
+
+#配置session和cache
+CACHES = {
+    'default':{
+        'BACKEND': 'django_redis.cache.RedisCache',
+        'LOCATION': 'redis_://127.0.0.1:6379/12',
+        'OPTIONS': {
+            'CLIENT_CLASS': 'django_redis.client.DefaultClient'
+        }
+    }
+}
+
+SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
+
+
+# --配置--- Celery
+import djcelery
+djcelery.setup_loader() # 装载djcelery项目
+
+# 配置消息中间件的位置
+BROKER_URL ='redis://127.0.0.1:6379/12'
+CELERY_TIMEZONE = 'Asia/Shanghai'
+
+# 配置批量调试器
+CELERYBEAT_SCHEDULER = 'djcelery.schedulers.DatabaseScheduler'
+# -----end Celery----
