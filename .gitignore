@@ -6,3 +6,4 @@ libs
 lib
 scripts
 site-packages
+*.log

@@ -48,8 +48,8 @@ class Migration(migrations.Migration):
                 ('user', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL, verbose_name='user')),
             ],
             options={
-                'verbose_name': 'log entry',
-                'verbose_name_plural': 'log entries',
+                'verbose_name': 'log_ entry',
+                'verbose_name_plural': 'log_ entries',
                 'ordering': ('-action_time',),
             },
         ),
